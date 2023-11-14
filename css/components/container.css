@@ -1,0 +1,23 @@
+.container {
+    width: 1000px;
+    margin: 25px auto;
+    text-align: center; 
+}
+
+@media (max-width: 960px) {
+    .container, #banner-end {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container, #banner-end {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container, #banner-end {
+        width: 300px;
+    }
+}
